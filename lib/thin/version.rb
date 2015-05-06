@@ -8,7 +8,7 @@ module Thin
     MINOR    = 6
     TINY     = 3
     
-    STRING   = [MAJOR, MINOR, TINY].join('.')
+    STRING   = "#{[MAJOR, MINOR, TINY].join('.')}-le"
     
     CODENAME = "Protein Powder".freeze
     
